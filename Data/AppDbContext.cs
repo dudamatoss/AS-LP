@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 
-
 namespace AS.Data
 {
     public class AppDbContext : DbContext
