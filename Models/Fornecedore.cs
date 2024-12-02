@@ -1,5 +1,7 @@
+//classe fornecedor
 public class Fornecedor
 {
+    //atrubutos da classe fornecedor
     public int Id { get; set; }
     public string? Nome { get; set; }
     public string? CNPJ { get; set; }

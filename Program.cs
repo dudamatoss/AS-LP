@@ -3,7 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>();
 builder.Services.AddScoped<IPedidosRepository,PedidosRepository>();
-builder.Services.AddScoped<IFornecedoresReposutory,FornecedoresRepository>();
+builder.Services.AddScoped<IFornecedoresRepository,FornecedoresRepository>();
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
